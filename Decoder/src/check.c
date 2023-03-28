@@ -19,5 +19,6 @@ int check_values(char *str)
 	}
 	str[0] = line [0];
 	str[1] = '\0';
+	free(line);
 	return (0);
 }

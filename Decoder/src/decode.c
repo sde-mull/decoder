@@ -44,6 +44,7 @@ void	decode_message(void)
 		index = index + jump + 1;
 	}
 	printf("\n");
+	free(line);
 }
 
 int main(int argc, char **argv)
